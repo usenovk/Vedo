@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600&display=swap');
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    overflow:auto;
+}
+/* header {
+    background-image: url(img/bgc.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+
+.header-menu {
+    background-color: #0066C5;;
+    display: flex;
+    justify-content: space-evenly;
+}
+.header-title-menu{
+    display: flex;
+}
+.header-title {
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s linear;
+    cursor: pointer;
+
+}
+.header-title:hover {
+    color: gray;
+}
+a{
+    text-decoration: initial;
+}
+.header-box{
+    justify-content: space-evenly;
+    height: 70vh;
+    display: flex;
+    background: white;
+    padding: 200px, 100px, 100px;
+    align-items: center;
+
+}
+.header-box-img{
+    text-align: center;
+}
+.header-box-text {
+    width: 500px;
+}
+.box-title{
+    font-weight: 300;
+    color: black;
+}
+.btn {
+    text-decoration: initial;
+    background: rgb(118, 131, 255);
+    padding: 10px;
+    color: white;
+    transition: color 0.3s linear;
+
+}
+.btn:hover{
+    background: #e2e2e2;
+    color: #000;
+}
+.box-btn {
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+    .header-menu {
+        background-color: #0066C5;;
+        display:block;
+        text-align: center;
+    }
+    .header-title-menu{
+        display: block;
+        text-align: center;
+    }
+    .header-title {
+        padding: 10px;
+        color: wheat;
+        background: #0063c0;
+        font-weight: bold;
+        transition: color 0.3s linear;
+        cursor: pointer;
+    
+    }
+    .header-title:hover {
+        color: grey;
+    }
+    a{
+        text-decoration: initial;
+    }
+    .header-box{
+        height: 70vh;
+        display:list-item;
+        background: white;
+    }
+    .header-box-img{
+        text-align: center;
+    }
+    .header-box-text {
+        text-align: center;
+        display: inline;
+    }
+    .box-title{
+        font-weight: 300;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 17px;
+        color: black;
+        text-align: center;
+    }
+    .btn {
+        text-decoration: initial;
+        background: rgb(118, 131, 255);
+        padding: 10px;
+        color: white;
+        transition: color 0.3s linear;
+    
+    }
+    .btn:hover{
+        background: #e2e2e2;
+        color: #000;
+    }
+    .box-btn {
+        text-align: center;
+    }
+    .header-box-img11{
+        padding-top: 50px;
+        width: 230px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+    .header-menu {
+        background-color: #0066C5;;
+        display:block;
+        text-align: center;
+    }
+    .header-title-menu{
+        display: block;
+        text-align: center;
+    }
+    .header-title {
+        padding: 10px;
+        color: wheat;
+        background: #0063c0;
+        font-weight: bold;
+        transition: color 0.3s linear;
+        cursor: pointer;
+    
+    }
+    .header-title:hover {
+        color: grey;
+    }
+    a{
+        text-decoration: initial;
+    }
+    .header-box{
+        /* height: 70vh; */
+        display: block;
+        background: white;
+        align-items: center;
+    
+    }
+    .header-box-img{
+        text-align: center;
+    }
+    .header-box-text {
+        text-align: center;
+    }
+    .box-title{
+        font-weight: 300;
+        font-size: 13px;
+        padding-left: 20px;
+        padding-right: 20px;
+        color: black;
+        text-align: center;
+    }
+    .btn {
+        text-decoration: initial;
+        background: rgb(118, 131, 255);
+        padding: 10px;
+        color: white;
+        transition: color 0.3s linear;
+    
+    }
+    .btn:hover{
+        background: #e2e2e2;
+        color: #000;
+    }
+    .box-btn {
+        padding-top: 50px;
+        padding-left: 20px;
+        text-align: center;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 300px) {
+    .header-menu {
+        background-color: #0066C5;;
+        display:block;
+        text-align: center;
+    }
+    .header-title-menu{
+        display: block;
+        text-align: center;
+    }
+    .header-title {
+        padding: 7px;
+        font-size: 10px;
+        color: wheat;
+        background: #0063c0;
+        font-weight: bold;
+        transition: color 0.3s linear;
+        cursor: pointer;
+    
+    }
+    .header-title:hover {
+        color: grey;
+    }
+    a{
+        text-decoration: initial;
+    }
+    .header-box{
+        /* height: 70vh; */
+        display: block;
+        background: white;
+        align-items: center;
+    
+    }
+    .header-box-img11{
+        text-align: center;
+        width: 100px;
+    }
+    .header-box-text {
+        text-align: center;
+    }
+    .box-title{
+        font-weight: 300;
+        font-size: 13px;
+        padding-left: 20px;
+        padding-right: 20px;
+        color: black;
+        text-align: center;
+    }
+    .btn {
+        text-decoration: initial;
+        background: rgb(118, 131, 255);
+        padding: 10px;
+        color: white;
+        transition: color 0.3s linear;
+    
+    }
+    .btn:hover{
+        background: #e2e2e2;
+        color: #000;
+    }
+    .box-btn {
+        padding-top: 10px;
+        padding-left: 20px;
+        text-align: center;
+    }
+    
+}
